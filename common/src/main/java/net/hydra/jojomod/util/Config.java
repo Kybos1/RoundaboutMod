@@ -38,15 +38,15 @@ import net.hydra.jojomod.util.annotation.*;
     public Integer fabricTerrierSpawnWeightInTaigaUseDatapackForForge;
     @IntOption(group = "inherit", value = 1, min = 0, max = 72000)
     public Integer fabricTerrierSpawnWeightInDesertUseDatapackForForge;
-    @FloatOption(group = "inherit", value = 0.05F, min = 0, max = 1F)
+    @FloatOption(group = "inherit", value = 0F, min = 0, max = 1F)
     public Float worthyMobOdds;
-    @FloatOption(group = "inherit", value = 0.005F, min = 0, max = 1F)
+    @FloatOption(group = "inherit", value = 0F, min = 0, max = 1F)
     public Float standUserOdds;
-    @FloatOption(group = "inherit", value = 0.02F, min = 0, max = 1F)
+    @FloatOption(group = "inherit", value = 0F, min = 0, max = 1F)
     public Float standUserVillagerOdds;
-    @FloatOption(group = "inherit", value = 0.15F, min = 0, max = 1F)
+    @FloatOption(group = "inherit", value = 0F, min = 0, max = 1F)
     public Float userAndWorthyBreedingOddsBonus;
-    @IntOption(group = "inherit", value = 2, min = 0, max = 72000)
+    @IntOption(group = "inherit", value = 0, min = 0, max = 72000)
     public Integer multiplyAboveForVillagerBreeding;
     @BooleanOption(group = "inherit", value = false)
     public Boolean starPlatinumScopeUsesPotionEffectForNightVision;
